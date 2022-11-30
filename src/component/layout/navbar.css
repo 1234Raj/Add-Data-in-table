@@ -1,0 +1,46 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .navbar{
+    padding: 15px 0;
+    background: hsl(215deg 13% 89%);
+  }
+  .navbar .head-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo a{
+    color: #121f3d;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    margin-left: 60px;
+  }
+  
+  .navbar .menu{
+    margin-right: 50px;
+  }
+  .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    
+  }
+  .navbar .menu li a{
+    display: block;
+    color: #121f3d;
+    font-size: 2vmin;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover{
+    color: rgb(18, 29, 110);
+  }
+  .navbar.sticky .menu li a:hover{
+    color: #fff;
+  }

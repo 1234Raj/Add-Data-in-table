@@ -1,0 +1,33 @@
+ { 
+    "user": [ 
+
+    { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"},
+
+      { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"},
+
+      { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"},
+
+      { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"},
+
+      { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"},
+
+      { "firstName" : "John",  
+      "lastName"  : "Doe",
+      "age"       : 23 ,
+      "Email"  : "Hii@gmail.com"}
+] }    

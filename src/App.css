@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
+ .navbar{
+    background-color:rgb(0, 51, 102);
+    /* color: #ffff; */
+ }
+ 
+ .navbar .navbar-brand{
+    margin-left: 60px;
+    color: #ffff;
+ }
+  
+ .navbar .nav-link {
+     color: #ffff;
+    
+ }
+ .navbar .btn{
+    margin-right: 60px;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ /* Add user Data */
+ .AddUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .Add{
+    width: 40%;
+    height: 550px;
+    background: #036;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+ }
+ .Add h1{
+    color: #ffff;
+ }
+ .Add .Form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+ }
+ .Add .Form .Detail{
+    display: flex;
+    flex-direction: column;
+ }
+ label{
+     
+        color: rgb(238, 233, 233);
+        text-transform: capitalize;
+        font-weight: 700;
+        text-align: center;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ input[type="text"],input[type="email"],input[type="phone"]{
+    border: 0;
+background: none;
+margin: 20px 0px 20px 0px;
+text-align: center;
+border: 3px solid rgb(246, 247, 248);
+padding: 8px 80px;
+color: rgb(249, 248, 248);
+outline: none;
+transition: 0.24px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 3vmin;
+letter-spacing: 2px;
+ }
+ hr{
+    color: black;
+    height: 5;
+ }
+ input[type="submit"]{
+    margin-top: 15px;
+    border: 0;
+    background-color: yellow;
+    padding: 8px 0px;
+    color: black;
+    font-weight: 600;
+    
+ }
+ /* Table */
